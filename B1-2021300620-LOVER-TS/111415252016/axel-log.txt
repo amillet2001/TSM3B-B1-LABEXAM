@@ -1,0 +1,276 @@
+C311-PC3@311-PC3 MINGW64 ~
+$ git clone https://github.com/amillet2001/TSM3B-B1-LABEXAM.git
+Cloning into 'TSM3B-B1-LABEXAM'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), 44.82 KiB | 5.60 MiB/s, done.
+
+C311-PC3@311-PC3 MINGW64 ~
+$ cd TSM3B-B1-LABEXAM
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM (main)
+$ mkdir B1-2021300620-LOVER-TS
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM (main)
+$ cd B1-2021300620-LOVER-TS
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ ^C
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ ^C
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ touch B1-FILE1.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ touch B1-FILE2.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ touch B1-FILE3.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ touch B1-FILE4.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ touch B1-FILE5.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ echo "aeiou" > B1-FILE3.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ echo "bcdfghjklmnpqrstvwxyz" > B1-FILE4.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ ^C
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ echo "LOVERT-TS" > B1-FILE5.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ echo "2021300620" > B1-FILE1.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ git add B1-FILE5.txt
+warning: in the working copy of 'B1-2021300620-LOVER-TS/B1-FILE5.txt', LF will be replaced by CRLF the next time Git touches it
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ git commit -m "committing B1-FILE1.txt"
+[main bec2a4c] committing B1-FILE1.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 B1-2021300620-LOVER-TS/B1-FILE5.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (main)
+$ git checkout -b commit
+Switched to a new branch 'commit'
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (commit)
+$ ^C
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (commit)
+$ mkdir 111415252016
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS (commit)
+$ cd 111415252016
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ touch ssh.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ ^C
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ touch floppydisk.docs
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ git add ssh.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ git commit -m "committing ssh.txt"
+[commit 593d0da] committing ssh.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 B1-2021300620-LOVER-TS/111415252016/ssh.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ git add floppydisk.docs
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ git commit -m "committing floppydisk.docs"
+[commit 23c7895] committing floppydisk.docs
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 B1-2021300620-LOVER-TS/111415252016/floppydisk.docs
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ ^C
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git branch -a
+  commit
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git merge commit -m "merging commit to main"
+Updating bec2a4c..23c7895
+Fast-forward (no commit created; -m option ignored)
+ B1-2021300620-LOVER-TS/111415252016/floppydisk.docs | 0
+ B1-2021300620-LOVER-TS/111415252016/ssh.txt         | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 B1-2021300620-LOVER-TS/111415252016/floppydisk.docs
+ create mode 100644 B1-2021300620-LOVER-TS/111415252016/ssh.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git rm B1-FILE1.txt
+fatal: pathspec 'B1-FILE1.txt' did not match any files
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git rm B1-FILE1
+fatal: pathspec 'B1-FILE1' did not match any files
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git rm B1-FILE1.txt rm 'B1-FILE1.txt'
+fatal: pathspec 'B1-FILE1.txt' did not match any files
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+        lfs
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ ls
+floppydisk.docs  ssh.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git checkout main
+Already on 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ ls
+floppydisk.docs  ssh.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git checkout commit
+Switched to branch 'commit'
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ ls
+floppydisk.docs  ssh.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ cd B1-2021300620-LOVER-TS
+bash: cd: B1-2021300620-LOVER-TS: No such file or directory
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (commit)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ cd B1-2021300620-LOVER-TS
+bash: cd: B1-2021300620-LOVER-TS: No such file or directory
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ cd TSM3B-B1-LABEXAM
+bash: cd: TSM3B-B1-LABEXAM: No such file or directory
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ cd "B1-2021300620-LOVER-TS"
+bash: cd: B1-2021300620-LOVER-TS: No such file or directory
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ cd "TSM3B-B1-LABEXAM"
+bash: cd: TSM3B-B1-LABEXAM: No such file or directory
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../B1-FILE1.txt
+        ../B1-FILE2.txt
+        ../B1-FILE3.txt
+        ../B1-FILE4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git add B1-FILE1.txt
+fatal: pathspec 'B1-FILE1.txt' did not match any files
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ ^C
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ cd "B1-2021300620-LOVER-TS"
+bash: cd: B1-2021300620-LOVER-TS: No such file or directory
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ cd B1-2021300620-LOVER-TS
+bash: cd: B1-2021300620-LOVER-TS: No such file or directory
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git add .
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../B1-FILE1.txt
+        ../B1-FILE2.txt
+        ../B1-FILE3.txt
+        ../B1-FILE4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git checkout main
+Already on 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git switch main
+Already on 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ git fetch
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 1), reused 10 (delta 1), pack-reused 0
+Unpacking objects: 100% (10/10), 989 bytes | 2.00 KiB/s, done.
+From https://github.com/amillet2001/TSM3B-B1-LABEXAM
+ * [new branch]      commit     -> origin/commit
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ cd B1-2021300620-LOVER-TS
+bash: cd: B1-2021300620-LOVER-TS: No such file or directory
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$ touch axel-log.txt
+
+C311-PC3@311-PC3 MINGW64 ~/TSM3B-B1-LABEXAM/B1-2021300620-LOVER-TS/111415252016 (main)
+$
